@@ -29,7 +29,20 @@ struct SimpleStructure: ExampleProtocol {
 var b = SimpleStructure()
 b.adjust()
 let bDescription = b.simpleDescription
+/*
+enum SimpleEnum:ExampleProtocol {
+    case simpleDescription
+    var simpleDescription: String
+        { return  "A simple structure"}
+   
+   
+    mutating func adjust() {
+        simpleDescription + " (adjusted)"
+    }
+}
+var c = SimpleEnum.simpleDescription
 
+*/
 //: > **Experiment**:
 //: > Write an enumeration that conforms to this protocol.
 //:
@@ -46,7 +59,30 @@ extension Int: ExampleProtocol {
     }
  }
 print(7.simpleDescription)
+/*
+extension Double:ExampleProtocol {
+    var absoluteValue:Double {
+        return abs(self)
+    }
+    
+    var simpleDescription: String {
+        return "The number \(self)"
+    }
+    mutating func adjust() {
+        self += 42
+    }
 
+}*/
+extension Double {
+    var absoluteValue2:Double {
+        if (self > 0) {
+            return self
+        } else {
+            return -self
+        }
+    }
+}
+(-1.2).absoluteValue2
 //: > **Experiment**:
 //: > Write an extension for the `Double` type that adds an `absoluteValue` property.
 //:
@@ -55,6 +91,12 @@ print(7.simpleDescription)
 let protocolValue: ExampleProtocol = a
 print(protocolValue.simpleDescription)
 // print(protocolValue.anotherProperty)  // Uncomment to see the error
+
+let protocolValue1:ExampleProtocol
+protocolValue1 = b;
+
+
+let simpleClass = SimpleClass()
 
 //: Even though the variable `protocolValue` has a runtime type of `SimpleClass`, the compiler treats it as the given type of `ExampleProtocol`. This means that you can’t accidentally access methods or properties that the class implements in addition to its protocol conformance.
 //:

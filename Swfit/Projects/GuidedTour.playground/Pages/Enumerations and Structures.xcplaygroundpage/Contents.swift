@@ -24,6 +24,15 @@ enum Rank: Int {
 let ace = Rank.Ace
 let aceRawValue = ace.rawValue
 
+//:Fuction to Compare two Rank
+let queen = Rank.Queen;
+func compare(first:Rank,second:Rank)->Bool {
+    
+  return  first.rawValue == second.rawValue
+}
+compare(ace, second: queen)
+let ace2 = Rank.Ace
+compare(ace, second: ace2)
 //: > **Experiment**:
 //: > Write a function that compares two `Rank` values by comparing their raw values.
 //:
@@ -51,10 +60,19 @@ enum Suit {
                 return "clubs"
         }
     }
+    func color() -> String {
+        switch self {
+        case .Spades, .Clubs:
+            return "black"
+        case .Diamonds,.Hearts:
+            return "red"
+        }
+    }
 }
 let hearts = Suit.Hearts
 let heartsDescription = hearts.simpleDescription()
-
+//:Experiment Solution
+hearts.color()
 //: > **Experiment**:
 //: > Add a `color()` method to `Suit` that returns “black” for spades and clubs, and returns “red” for hearts and diamonds.
 //:
@@ -67,6 +85,11 @@ struct Card {
     var suit: Suit
     func simpleDescription() -> String {
         return "The \(rank.simpleDescription()) of \(suit.simpleDescription())"
+    }
+    
+    func createFullDeckOfCards() {
+       
+        
     }
 }
 let threeOfSpades = Card(rank: .Three, suit: .Spades)

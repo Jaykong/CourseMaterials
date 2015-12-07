@@ -2,10 +2,11 @@
 //:
 //: Use `func` to declare a function. Call a function by following its name with a list of arguments in parentheses. Use `->` to separate the parameter names and types from the function’s return type.
 //:
-func greet(name: String, day: String) -> String {
+func greet(name: String,  day: String) -> String {
     return "Hello \(name), today is \(day)."
 }
 greet("Bob", day: "Tuesday")
+greet("Jay", day: "Wedsday")
 
 //: > **Experiment**:
 //: > Remove the `day` parameter. Add a parameter to include today’s lunch special in the greeting.

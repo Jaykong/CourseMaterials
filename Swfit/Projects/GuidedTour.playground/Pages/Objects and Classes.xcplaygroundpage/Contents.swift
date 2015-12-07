@@ -3,11 +3,17 @@
 //: Use `class` followed by the class’s name to create a class. A property declaration in a class is written the same way as a constant or variable declaration, except that it is in the context of a class. Likewise, method and function declarations are written the same way.
 //:
 class Shape {
+    let width = 12
     var numberOfSides = 0
     func simpleDescription() -> String {
         return "A shape with \(numberOfSides) sides."
+       
+    }
+    func printWidth(width:Int) ->String {
+        return "A shape with width: \(width)"
     }
 }
+
 
 //: > **Experiment**:
 //: > Add a constant property with `let`, and add another method that takes an argument.
@@ -17,22 +23,26 @@ class Shape {
 var shape = Shape()
 shape.numberOfSides = 7
 var shapeDescription = shape.simpleDescription()
-
+shape.printWidth(13)
 //: This version of the `Shape` class is missing something important: an initializer to set up the class when an instance is created. Use `init` to create one.
 //:
 class NamedShape {
     var numberOfSides: Int = 0
-    var name: String
+    var name: String 
 
+    
+    
     init(name: String) {
        self.name = name
     }
-
+    
+   
     func simpleDescription() -> String {
        return "A shape with \(numberOfSides) sides."
     }
 }
-
+var nameShape = NamedShape(name: "Kong")
+nameShape.name
 //: Notice how `self` is used to distinguish the `name` property from the `name` argument to the initializer. The arguments to the initializer are passed like a function call when you create an instance of the class. Every property needs a value assigned—either in its declaration (as with `numberOfSides`) or in the initializer (as with `name`).
 //:
 //: Use `deinit` to create a deinitializer if you need to perform some cleanup before the object is deallocated.
@@ -57,10 +67,31 @@ class Square: NamedShape {
     override func simpleDescription() -> String {
         return "A square with sides of length \(sideLength)."
     }
+    
+    
 }
 let test = Square(sideLength: 5.2, name: "my test square")
 test.area()
 test.simpleDescription()
+func test(argu1:Int, argu2:Int) {
+    
+}
+
+class Circel: NamedShape {
+    var radius:Double
+    init(name: String, radius:Double) {
+        self.radius = radius
+        super.init(name: name)
+        
+    }
+    
+    func area() ->Double {
+        return 3.14 * radius * radius
+    }
+    override func simpleDescription() ->String {
+        return "A Circle with ridius of \(radius)"
+    }
+}
 
 //: > **Experiment**:
 //: > Make another subclass of `NamedShape` called `Circle` that takes a radius and a name as arguments to its initializer. Implement an `area()` and a `simpleDescription()` method on the `Circle` class.
@@ -74,15 +105,22 @@ class EquilateralTriangle: NamedShape {
         self.sideLength = sideLength
         super.init(name: name)
         numberOfSides = 3
+       // setUpName("JayKong")
+        //perimeter = 12
     }
 
     var perimeter: Double {
         get {
              return 3.0 * sideLength
         }
-        set {
-            sideLength = newValue / 3.0
+        set(perimeter) {
+            sideLength = perimeter / 3.0
         }
+    }
+
+    
+    func setUpName(name:String) {
+        self.name = name;
     }
 
     override func simpleDescription() -> String {
@@ -128,11 +166,17 @@ print(triangleAndSquare.triangle.sideLength)
 triangleAndSquare.square = Square(sideLength: 50, name: "larger square")
 print(triangleAndSquare.triangle.sideLength)
 
+triangleAndSquare.triangle = EquilateralTriangle(sideLength: 100, name: "even larger triangle")
+print(triangleAndSquare.square.sideLength)
 //: When working with optional values, you can write `?` before operations like methods, properties, and subscripting. If the value before the `?` is `nil`, everything after the `?` is ignored and the value of the whole expression is `nil`. Otherwise, the optional value is unwrapped, and everything after the `?` acts on the unwrapped value. In both cases, the value of the whole expression is an optional value.
 //:
 let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
 let sideLength = optionalSquare?.sideLength
 
+func funcMethod(first:Int,second:String)->String {
+    return "a global method"
+}
+funcMethod(1, second: "")
 
 
 //: [Previous](@previous) | [Next](@next)

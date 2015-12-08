@@ -105,15 +105,7 @@ print("the excute time is \(index)")
     *statements*
 *}*
  */
-/*:
-let snakeAndLadder = [#Image(imageLiteral: "snakesAndLadders_2x.png")#].imageWithRenderingMode(.AlwaysTemplate)
-let snakeAndLadderView = UIImageView(image: snakeAndLadder)
-let gradientLayer = CAGradientLayer()
-gradientLayer.colors = [UIColor.blackColor().CGColor,UIColor.whiteColor().CGColor]
-let bacdgroundView = UIView(frame: snakeAndLadderView.bounds)
 
-bacdgroundView.addSubview(snakeAndLadderView)
-*/
 
 //: # Snakes and Ladders Example
 /*:
@@ -152,16 +144,16 @@ repeat {
 //:用Repeat-While完成上面的例子
 //: *为什么上梯、蛇滑下先执行*
 
-/*:
-repeat {
-if ++diceRoll == 7 {
-diceRoll = 1
-}
-square += board[square]
-square += diceRoll
 
-} while square < finalSquare
-*/
+//repeat {
+//if ++diceRoll == 7 {
+//diceRoll = 1
+//}
+//square += board[square]
+//square += diceRoll
+//
+//} while square < finalSquare
+
 //M_PI
 
 //: ### 条件语句
@@ -205,15 +197,15 @@ if temperatureInFahrenheit <= 32 {
 //:switch 语句会尝试把某个值与若干个模式（pattern）进行匹配
 
 //: * 最简单的形式就是把某个值与一个或若干个相同类型的值作比较
-/*:
-switch some value to consider {
-    case value 1:
-    respond to value 1
-    case value 2, value 3:
-    respond to value 2 or 3
-    default:
-    otherwise, do something else
-} */
+
+//switch some value to consider {
+//    case value 1:
+//    respond to value 1
+//    case value 2, value 3:
+//    respond to value 2 or 3
+//    default:
+//    otherwise, do something else
+//} 
 
 
 //: switch 语句必须是完备的
@@ -235,25 +227,25 @@ default:
 
 //: *每一个 case 分支都必须包含至少一条语句*
 //: * 下面这样书写代码是无效 *
-/*:
-let anotherCharacter: Character = "a"
-switch anotherCharacter {
-case "a":
-case "A":
-    print("The letter A")
-default:
-    print("Not the letter A")
-}
+
+//let anotherCharacter: Character = "a"
+//switch anotherCharacter {
+//case "a":
+//case "A":
+//    print("The letter A")
+//default:
+//    print("Not the letter A")
+//}
 // this will report a compile-time error
-*/
+
 
 //: 一个 case 也可以包含多个模式，用逗号把它们分开（如果太长了也可以分行写）：
-/*:
-switch some value to consider {
-    case value 1, value 2:
-    statements
-}
-*/
+
+//switch some value to consider {
+//    case value 1, value 2:
+//    statements
+//}
+
 
 //: # 区间匹配
 //: *例子展示了如何使用区间匹配来输出任意数字对应的自然语言格式：*
@@ -333,10 +325,10 @@ case let (x, y):
     print("(\(x), \(y)) is just some arbitrary point")
 }
 // 输出 "(1, -1) is on the line x == -y"
-/*:
-注意点:
-1.声明了常量 x 和 y 的占位符
-2.最后一个 case 分支匹配了余下所有可能的值
+
+//注意点:
+//1.声明了常量 x 和 y 的占位符
+//2.最后一个 case 分支匹配了余下所有可能的值
 
 
 
@@ -354,4 +346,107 @@ case let (x, y):
 //: ### 控制转移语句（Control Transfer Statements
 //: ### 提前退出
 //: ### 检测API可用性
-*/
+
+
+
+let puzzleInput = "great minds think alike"
+var puzzleOutput = ""
+for character in puzzleInput.characters {
+    switch character {
+    case "a", "e", "i", "o", "u", " ":
+        continue
+    default:
+        puzzleOutput.append(character)
+    }
+}
+print(puzzleOutput)
+// 输出 "grtmndsthnklk"
+
+
+let numberSymbol: Character = "三" // 简体中文里的数字 3
+var possibleIntegerValue: Int?
+switch numberSymbol {
+case "1", "?", "一", "?":
+    possibleIntegerValue = 1
+case "2", "?", "二", "?":
+    possibleIntegerValue = 2
+case "3", "?", "三", "?":
+    possibleIntegerValue = 3
+case "4", "?", "四", "?":
+    possibleIntegerValue = 4
+default:
+    break
+}
+if let integerValue = possibleIntegerValue {
+    print("The integer value of \(numberSymbol) is \(integerValue).")
+} else {
+    print("An integer value could not be found for \(numberSymbol).")
+}
+// 输出 "The integer value of 三 is 3."
+
+
+let integerToDescribe = 5
+var description = "The number \(integerToDescribe) is"
+switch integerToDescribe {
+case 2, 3, 5, 7, 11, 13, 17, 19:
+    description += " a prime number, and also"
+    fallthrough
+default:
+    description += " an integer."
+}
+print(description)
+// 输出 "The number 5 is a prime number, and also an integer."
+//
+//let finalSquare = 25
+//var board = [Int](count: finalSquare + 1, repeatedValue: 0)
+//board[03] = +08; board[06] = +11; board[09] = +09; board[10] = +02
+//board[14] = -10; board[19] = -11; board[22] = -02; board[24] = -08
+//var square = 0
+//var diceRoll = 0
+
+gameLoop: while square != finalSquare {
+    if ++diceRoll == 7 { diceRoll = 1 }
+    switch square + diceRoll {
+    case finalSquare:
+        // 到达最后一个方块，游戏结束
+        break gameLoop
+    case let newSquare where newSquare > finalSquare:
+        // 超出最后一个方块，再掷一次骰子
+        continue gameLoop
+    default:
+        // 本次移动有效
+        square += diceRoll
+        square += board[square]
+    }
+}
+
+
+
+print("Game over!")
+
+
+
+
+func greet(person: [String: String]) {
+    guard let name = person["name"] else {
+        return
+    }
+    print("Hello \(name)")
+    guard let location = person["location"] else {
+        print("I hope the weather is nice near you.")
+        return
+    }
+    print("I hope the weather is nice in \(location).")
+}
+greet(["name": "John"])
+// prints "Hello John!"
+// prints "I hope the weather is nice near you."
+greet(["name": "Jane", "location": "Cupertino"])
+// prints "Hello Jane!"
+// prints "I hope the weather is nice in Cupertino."
+
+if #available(iOS 9, OSX 10.10, *) {
+    // 在 iOS 使用 iOS 9 的 API, 在 OS X 使用 OS X v10.10 的 API
+} else {
+    // 使用先前版本的 iOS 和 OS X 的 API
+}

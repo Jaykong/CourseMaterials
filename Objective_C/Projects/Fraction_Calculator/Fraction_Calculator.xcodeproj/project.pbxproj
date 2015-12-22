@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A908FE101C29350600B68E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE0F1C29350600B68E3C /* main.m */; };
+		A908FE131C29350600B68E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE121C29350600B68E3C /* AppDelegate.m */; };
+		A908FE161C29350600B68E3C /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE151C29350600B68E3C /* FCViewController.m */; };
+		A908FE191C29350600B68E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908FE171C29350600B68E3C /* Main.storyboard */; };
+		A908FE1B1C29350600B68E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A908FE1A1C29350600B68E3C /* Assets.xcassets */; };
+		A908FE1E1C29350600B68E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908FE1C1C29350600B68E3C /* LaunchScreen.storyboard */; };
+		A908FE291C29350600B68E3C /* Fraction_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE281C29350600B68E3C /* Fraction_CalculatorTests.m */; };
+		A908FE341C29350600B68E3C /* Fraction_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE331C29350600B68E3C /* Fraction_CalculatorUITests.m */; };
+		A908FE431C2936AB00B68E3C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE421C2936AB00B68E3C /* Calculator.m */; };
+		A908FE461C293A9800B68E3C /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FE451C293A9800B68E3C /* Fraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A908FE251C29350600B68E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908FE031C29350600B68E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908FE0A1C29350600B68E3C;
+			remoteInfo = Fraction_Calculator;
+		};
+		A908FE301C29350600B68E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908FE031C29350600B68E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908FE0A1C29350600B68E3C;
+			remoteInfo = Fraction_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A908FE0B1C29350600B68E3C /* Fraction_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraction_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FE0F1C29350600B68E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A908FE111C29350600B68E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A908FE121C29350600B68E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A908FE141C29350600B68E3C /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
+		A908FE151C29350600B68E3C /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		A908FE181C29350600B68E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A908FE1A1C29350600B68E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A908FE1D1C29350600B68E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A908FE1F1C29350600B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FE241C29350600B68E3C /* Fraction_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fraction_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FE281C29350600B68E3C /* Fraction_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_CalculatorTests.m; sourceTree = "<group>"; };
+		A908FE2A1C29350600B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FE2F1C29350600B68E3C /* Fraction_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fraction_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FE331C29350600B68E3C /* Fraction_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_CalculatorUITests.m; sourceTree = "<group>"; };
+		A908FE351C29350700B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FE411C2936AB00B68E3C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		A908FE421C2936AB00B68E3C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		A908FE441C293A9800B68E3C /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		A908FE451C293A9800B68E3C /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A908FE081C29350600B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE211C29350600B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE2C1C29350600B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A908FE021C29350600B68E3C = {
+			isa = PBXGroup;
+			children = (
+				A908FE0D1C29350600B68E3C /* Fraction_Calculator */,
+				A908FE271C29350600B68E3C /* Fraction_CalculatorTests */,
+				A908FE321C29350600B68E3C /* Fraction_CalculatorUITests */,
+				A908FE0C1C29350600B68E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A908FE0C1C29350600B68E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A908FE0B1C29350600B68E3C /* Fraction_Calculator.app */,
+				A908FE241C29350600B68E3C /* Fraction_CalculatorTests.xctest */,
+				A908FE2F1C29350600B68E3C /* Fraction_CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A908FE0D1C29350600B68E3C /* Fraction_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A908FE111C29350600B68E3C /* AppDelegate.h */,
+				A908FE121C29350600B68E3C /* AppDelegate.m */,
+				A908FE411C2936AB00B68E3C /* Calculator.h */,
+				A908FE421C2936AB00B68E3C /* Calculator.m */,
+				A908FE141C29350600B68E3C /* FCViewController.h */,
+				A908FE151C29350600B68E3C /* FCViewController.m */,
+				A908FE441C293A9800B68E3C /* Fraction.h */,
+				A908FE451C293A9800B68E3C /* Fraction.m */,
+				A908FE171C29350600B68E3C /* Main.storyboard */,
+				A908FE1A1C29350600B68E3C /* Assets.xcassets */,
+				A908FE1C1C29350600B68E3C /* LaunchScreen.storyboard */,
+				A908FE1F1C29350600B68E3C /* Info.plist */,
+				A908FE0E1C29350600B68E3C /* Supporting Files */,
+			);
+			path = Fraction_Calculator;
+			sourceTree = "<group>";
+		};
+		A908FE0E1C29350600B68E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A908FE0F1C29350600B68E3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A908FE271C29350600B68E3C /* Fraction_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A908FE281C29350600B68E3C /* Fraction_CalculatorTests.m */,
+				A908FE2A1C29350600B68E3C /* Info.plist */,
+			);
+			path = Fraction_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		A908FE321C29350600B68E3C /* Fraction_CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A908FE331C29350600B68E3C /* Fraction_CalculatorUITests.m */,
+				A908FE351C29350700B68E3C /* Info.plist */,
+			);
+			path = Fraction_CalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A908FE0A1C29350600B68E3C /* Fraction_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FE381C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_Calculator" */;
+			buildPhases = (
+				A908FE071C29350600B68E3C /* Sources */,
+				A908FE081C29350600B68E3C /* Frameworks */,
+				A908FE091C29350600B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fraction_Calculator;
+			productName = Fraction_Calculator;
+			productReference = A908FE0B1C29350600B68E3C /* Fraction_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A908FE231C29350600B68E3C /* Fraction_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FE3B1C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_CalculatorTests" */;
+			buildPhases = (
+				A908FE201C29350600B68E3C /* Sources */,
+				A908FE211C29350600B68E3C /* Frameworks */,
+				A908FE221C29350600B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908FE261C29350600B68E3C /* PBXTargetDependency */,
+			);
+			name = Fraction_CalculatorTests;
+			productName = Fraction_CalculatorTests;
+			productReference = A908FE241C29350600B68E3C /* Fraction_CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A908FE2E1C29350600B68E3C /* Fraction_CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FE3E1C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_CalculatorUITests" */;
+			buildPhases = (
+				A908FE2B1C29350600B68E3C /* Sources */,
+				A908FE2C1C29350600B68E3C /* Frameworks */,
+				A908FE2D1C29350600B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908FE311C29350600B68E3C /* PBXTargetDependency */,
+			);
+			name = Fraction_CalculatorUITests;
+			productName = Fraction_CalculatorUITests;
+			productReference = A908FE2F1C29350600B68E3C /* Fraction_CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A908FE031C29350600B68E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A908FE0A1C29350600B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A908FE231C29350600B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A908FE0A1C29350600B68E3C;
+					};
+					A908FE2E1C29350600B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A908FE0A1C29350600B68E3C;
+					};
+				};
+			};
+			buildConfigurationList = A908FE061C29350600B68E3C /* Build configuration list for PBXProject "Fraction_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A908FE021C29350600B68E3C;
+			productRefGroup = A908FE0C1C29350600B68E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A908FE0A1C29350600B68E3C /* Fraction_Calculator */,
+				A908FE231C29350600B68E3C /* Fraction_CalculatorTests */,
+				A908FE2E1C29350600B68E3C /* Fraction_CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A908FE091C29350600B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FE1E1C29350600B68E3C /* LaunchScreen.storyboard in Resources */,
+				A908FE1B1C29350600B68E3C /* Assets.xcassets in Resources */,
+				A908FE191C29350600B68E3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE221C29350600B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE2D1C29350600B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A908FE071C29350600B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FE161C29350600B68E3C /* FCViewController.m in Sources */,
+				A908FE431C2936AB00B68E3C /* Calculator.m in Sources */,
+				A908FE131C29350600B68E3C /* AppDelegate.m in Sources */,
+				A908FE101C29350600B68E3C /* main.m in Sources */,
+				A908FE461C293A9800B68E3C /* Fraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE201C29350600B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FE291C29350600B68E3C /* Fraction_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FE2B1C29350600B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FE341C29350600B68E3C /* Fraction_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A908FE261C29350600B68E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908FE0A1C29350600B68E3C /* Fraction_Calculator */;
+			targetProxy = A908FE251C29350600B68E3C /* PBXContainerItemProxy */;
+		};
+		A908FE311C29350600B68E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908FE0A1C29350600B68E3C /* Fraction_Calculator */;
+			targetProxy = A908FE301C29350600B68E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A908FE171C29350600B68E3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908FE181C29350600B68E3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A908FE1C1C29350600B68E3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908FE1D1C29350600B68E3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A908FE361C29350700B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A908FE371C29350700B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A908FE391C29350700B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fraction_Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A908FE3A1C29350700B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fraction_Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A908FE3C1C29350700B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fraction_CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraction_Calculator.app/Fraction_Calculator";
+			};
+			name = Debug;
+		};
+		A908FE3D1C29350700B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fraction_CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraction_Calculator.app/Fraction_Calculator";
+			};
+			name = Release;
+		};
+		A908FE3F1C29350700B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Fraction_CalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fraction_Calculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A908FE401C29350700B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Fraction_CalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jay.Fraction-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fraction_Calculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A908FE061C29350600B68E3C /* Build configuration list for PBXProject "Fraction_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FE361C29350700B68E3C /* Debug */,
+				A908FE371C29350700B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A908FE381C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FE391C29350700B68E3C /* Debug */,
+				A908FE3A1C29350700B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A908FE3B1C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FE3C1C29350700B68E3C /* Debug */,
+				A908FE3D1C29350700B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A908FE3E1C29350700B68E3C /* Build configuration list for PBXNativeTarget "Fraction_CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FE3F1C29350700B68E3C /* Debug */,
+				A908FE401C29350700B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A908FE031C29350600B68E3C /* Project object */;
+}

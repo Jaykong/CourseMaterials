@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A908FD4A1C27EF4000B68E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD491C27EF4000B68E3C /* main.m */; };
+		A908FD4D1C27EF4000B68E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD4C1C27EF4000B68E3C /* AppDelegate.m */; };
+		A908FD501C27EF4000B68E3C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD4F1C27EF4000B68E3C /* FirstViewController.m */; };
+		A908FD531C27EF4000B68E3C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD521C27EF4000B68E3C /* SecondViewController.m */; };
+		A908FD561C27EF4000B68E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908FD541C27EF4000B68E3C /* Main.storyboard */; };
+		A908FD581C27EF4000B68E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A908FD571C27EF4000B68E3C /* Assets.xcassets */; };
+		A908FD5B1C27EF4000B68E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908FD591C27EF4000B68E3C /* LaunchScreen.storyboard */; };
+		A908FD661C27EF4000B68E3C /* NotificationPassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD651C27EF4000B68E3C /* NotificationPassValueTests.m */; };
+		A908FD711C27EF4000B68E3C /* NotificationPassValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD701C27EF4000B68E3C /* NotificationPassValueUITests.m */; };
+		A908FD801C27F0D300B68E3C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A908FD7F1C27F0D300B68E3C /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A908FD621C27EF4000B68E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908FD3D1C27EF4000B68E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908FD441C27EF4000B68E3C;
+			remoteInfo = NotificationPassValue;
+		};
+		A908FD6D1C27EF4000B68E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908FD3D1C27EF4000B68E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908FD441C27EF4000B68E3C;
+			remoteInfo = NotificationPassValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A908FD451C27EF4000B68E3C /* NotificationPassValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationPassValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FD491C27EF4000B68E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A908FD4B1C27EF4000B68E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A908FD4C1C27EF4000B68E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A908FD4E1C27EF4000B68E3C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A908FD4F1C27EF4000B68E3C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A908FD511C27EF4000B68E3C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A908FD521C27EF4000B68E3C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A908FD551C27EF4000B68E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A908FD571C27EF4000B68E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A908FD5A1C27EF4000B68E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A908FD5C1C27EF4000B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FD611C27EF4000B68E3C /* NotificationPassValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationPassValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FD651C27EF4000B68E3C /* NotificationPassValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationPassValueTests.m; sourceTree = "<group>"; };
+		A908FD671C27EF4000B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FD6C1C27EF4000B68E3C /* NotificationPassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationPassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908FD701C27EF4000B68E3C /* NotificationPassValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationPassValueUITests.m; sourceTree = "<group>"; };
+		A908FD721C27EF4000B68E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908FD7E1C27F0D300B68E3C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A908FD7F1C27F0D300B68E3C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A908FD421C27EF4000B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD5E1C27EF4000B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD691C27EF4000B68E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A908FD3C1C27EF4000B68E3C = {
+			isa = PBXGroup;
+			children = (
+				A908FD471C27EF4000B68E3C /* NotificationPassValue */,
+				A908FD641C27EF4000B68E3C /* NotificationPassValueTests */,
+				A908FD6F1C27EF4000B68E3C /* NotificationPassValueUITests */,
+				A908FD461C27EF4000B68E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A908FD461C27EF4000B68E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A908FD451C27EF4000B68E3C /* NotificationPassValue.app */,
+				A908FD611C27EF4000B68E3C /* NotificationPassValueTests.xctest */,
+				A908FD6C1C27EF4000B68E3C /* NotificationPassValueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A908FD471C27EF4000B68E3C /* NotificationPassValue */ = {
+			isa = PBXGroup;
+			children = (
+				A908FD4B1C27EF4000B68E3C /* AppDelegate.h */,
+				A908FD4C1C27EF4000B68E3C /* AppDelegate.m */,
+				A908FD4E1C27EF4000B68E3C /* FirstViewController.h */,
+				A908FD4F1C27EF4000B68E3C /* FirstViewController.m */,
+				A908FD511C27EF4000B68E3C /* SecondViewController.h */,
+				A908FD521C27EF4000B68E3C /* SecondViewController.m */,
+				A908FD7E1C27F0D300B68E3C /* ThirdViewController.h */,
+				A908FD7F1C27F0D300B68E3C /* ThirdViewController.m */,
+				A908FD541C27EF4000B68E3C /* Main.storyboard */,
+				A908FD571C27EF4000B68E3C /* Assets.xcassets */,
+				A908FD591C27EF4000B68E3C /* LaunchScreen.storyboard */,
+				A908FD5C1C27EF4000B68E3C /* Info.plist */,
+				A908FD481C27EF4000B68E3C /* Supporting Files */,
+			);
+			path = NotificationPassValue;
+			sourceTree = "<group>";
+		};
+		A908FD481C27EF4000B68E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A908FD491C27EF4000B68E3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A908FD641C27EF4000B68E3C /* NotificationPassValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				A908FD651C27EF4000B68E3C /* NotificationPassValueTests.m */,
+				A908FD671C27EF4000B68E3C /* Info.plist */,
+			);
+			path = NotificationPassValueTests;
+			sourceTree = "<group>";
+		};
+		A908FD6F1C27EF4000B68E3C /* NotificationPassValueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A908FD701C27EF4000B68E3C /* NotificationPassValueUITests.m */,
+				A908FD721C27EF4000B68E3C /* Info.plist */,
+			);
+			path = NotificationPassValueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A908FD441C27EF4000B68E3C /* NotificationPassValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FD751C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValue" */;
+			buildPhases = (
+				A908FD411C27EF4000B68E3C /* Sources */,
+				A908FD421C27EF4000B68E3C /* Frameworks */,
+				A908FD431C27EF4000B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationPassValue;
+			productName = NotificationPassValue;
+			productReference = A908FD451C27EF4000B68E3C /* NotificationPassValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A908FD601C27EF4000B68E3C /* NotificationPassValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FD781C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValueTests" */;
+			buildPhases = (
+				A908FD5D1C27EF4000B68E3C /* Sources */,
+				A908FD5E1C27EF4000B68E3C /* Frameworks */,
+				A908FD5F1C27EF4000B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908FD631C27EF4000B68E3C /* PBXTargetDependency */,
+			);
+			name = NotificationPassValueTests;
+			productName = NotificationPassValueTests;
+			productReference = A908FD611C27EF4000B68E3C /* NotificationPassValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A908FD6B1C27EF4000B68E3C /* NotificationPassValueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908FD7B1C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValueUITests" */;
+			buildPhases = (
+				A908FD681C27EF4000B68E3C /* Sources */,
+				A908FD691C27EF4000B68E3C /* Frameworks */,
+				A908FD6A1C27EF4000B68E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908FD6E1C27EF4000B68E3C /* PBXTargetDependency */,
+			);
+			name = NotificationPassValueUITests;
+			productName = NotificationPassValueUITests;
+			productReference = A908FD6C1C27EF4000B68E3C /* NotificationPassValueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A908FD3D1C27EF4000B68E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A908FD441C27EF4000B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A908FD601C27EF4000B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A908FD441C27EF4000B68E3C;
+					};
+					A908FD6B1C27EF4000B68E3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A908FD441C27EF4000B68E3C;
+					};
+				};
+			};
+			buildConfigurationList = A908FD401C27EF4000B68E3C /* Build configuration list for PBXProject "NotificationPassValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A908FD3C1C27EF4000B68E3C;
+			productRefGroup = A908FD461C27EF4000B68E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A908FD441C27EF4000B68E3C /* NotificationPassValue */,
+				A908FD601C27EF4000B68E3C /* NotificationPassValueTests */,
+				A908FD6B1C27EF4000B68E3C /* NotificationPassValueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A908FD431C27EF4000B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FD5B1C27EF4000B68E3C /* LaunchScreen.storyboard in Resources */,
+				A908FD581C27EF4000B68E3C /* Assets.xcassets in Resources */,
+				A908FD561C27EF4000B68E3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD5F1C27EF4000B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD6A1C27EF4000B68E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A908FD411C27EF4000B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FD531C27EF4000B68E3C /* SecondViewController.m in Sources */,
+				A908FD801C27F0D300B68E3C /* ThirdViewController.m in Sources */,
+				A908FD4D1C27EF4000B68E3C /* AppDelegate.m in Sources */,
+				A908FD501C27EF4000B68E3C /* FirstViewController.m in Sources */,
+				A908FD4A1C27EF4000B68E3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD5D1C27EF4000B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FD661C27EF4000B68E3C /* NotificationPassValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908FD681C27EF4000B68E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908FD711C27EF4000B68E3C /* NotificationPassValueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A908FD631C27EF4000B68E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908FD441C27EF4000B68E3C /* NotificationPassValue */;
+			targetProxy = A908FD621C27EF4000B68E3C /* PBXContainerItemProxy */;
+		};
+		A908FD6E1C27EF4000B68E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908FD441C27EF4000B68E3C /* NotificationPassValue */;
+			targetProxy = A908FD6D1C27EF4000B68E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A908FD541C27EF4000B68E3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908FD551C27EF4000B68E3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A908FD591C27EF4000B68E3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908FD5A1C27EF4000B68E3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A908FD731C27EF4000B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A908FD741C27EF4000B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A908FD761C27EF4000B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationPassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A908FD771C27EF4000B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationPassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A908FD791C27EF4000B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationPassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationPassValue.app/NotificationPassValue";
+			};
+			name = Debug;
+		};
+		A908FD7A1C27EF4000B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationPassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationPassValue.app/NotificationPassValue";
+			};
+			name = Release;
+		};
+		A908FD7C1C27EF4000B68E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationPassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationPassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A908FD7D1C27EF4000B68E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationPassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jay.NotificationPassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationPassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A908FD401C27EF4000B68E3C /* Build configuration list for PBXProject "NotificationPassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FD731C27EF4000B68E3C /* Debug */,
+				A908FD741C27EF4000B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A908FD751C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FD761C27EF4000B68E3C /* Debug */,
+				A908FD771C27EF4000B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A908FD781C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FD791C27EF4000B68E3C /* Debug */,
+				A908FD7A1C27EF4000B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A908FD7B1C27EF4000B68E3C /* Build configuration list for PBXNativeTarget "NotificationPassValueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908FD7C1C27EF4000B68E3C /* Debug */,
+				A908FD7D1C27EF4000B68E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A908FD3D1C27EF4000B68E3C /* Project object */;
+}

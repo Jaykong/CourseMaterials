@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Program 15.10 AddressCard_@Property/Program 15.10 AddressCard_@Property.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 8.5/Program 8.5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 18.3/Program 18.3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 18.2/Program 18.2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 18.1/Program 18.1.xcodeproj">
+   </FileRef>
+</Workspace>

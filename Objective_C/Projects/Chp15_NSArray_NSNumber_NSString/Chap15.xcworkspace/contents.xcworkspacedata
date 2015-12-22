@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Program 15.12 AddressBook/Program 15.12 AddressBook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.10 AddressCard_@Property/Program 15.10 AddressCard_@Property.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.10 AddressCard/Program 15.10 AddressCard.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSIndexSet/NSIndexSet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.19/Program 15.19.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.9/../Program 15.18/Program 15.18.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.9/Program 15.9.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program15.7/Program15.7.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program15.6/Program15.6.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program15.5/Program15.5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program15.4/Program15.4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.3/Program 15.3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.2/Program 15.2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 15.1/Program 15.1.xcodeproj">
+   </FileRef>
+</Workspace>

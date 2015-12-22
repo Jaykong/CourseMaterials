@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:The NSBundle Class/The NSBundle Class.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16.9_ HTML contents from a Web address/Program 16.9_ HTML contents from a Web address.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16._ Implement a basic copy utility/Program 16._ Implement a basic copy utility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Working_With_NSSearchPath/Working_With_NSSearchPath.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16.5_ Some basic path operations/Program 16.5_ Some basic path operations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16.4_ Enumerate the contents of a directory/Program 16.4_ Enumerate the contents of a directory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16.3_shows basic operations with directories./Program 16.3_shows basic operations with directories..xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16_ Make a copy of a file/Program 16_ Make a copy of a file.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Program 16.1 _ Basic File operations/Program 16.1 _ Basic File operations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Working_With_Files_1/Working_With_Files_1.xcodeproj">
+   </FileRef>
+</Workspace>

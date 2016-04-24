@@ -31,4 +31,7 @@
 -(void)divide:(double)value {
     accumulator /= value;
 }
+-(void)print {
+    NSLog(@"= %g",accumulator);
+}
 @end

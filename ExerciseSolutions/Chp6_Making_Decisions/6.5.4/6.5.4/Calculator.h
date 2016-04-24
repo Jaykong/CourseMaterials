@@ -21,4 +21,6 @@
 -(void) substract: (double) value;
 -(void) multiply: (double) value;
 -(void) divide: (double) value;
+
+-(void)print;
 @end

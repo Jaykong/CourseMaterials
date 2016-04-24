@@ -18,8 +18,8 @@
     if ( _numerator == 0) {
         NSLog(@"the fraction value is 0");
     }
-    else if (_denominator == 1) {
-        NSLog(@"the fraction value is %d",_numerator);
+    else if (_numerator % _denominator == 0) {
+        NSLog(@"the fraction value is %d",_numerator/_denominator);
     } else {
         NSLog(@"the fraction value is %d/%d",_numerator,_denominator);
     }
@@ -29,14 +29,14 @@
 -(void) inPutNumerator: (int) n
 {
     NSLog(@"input the numerator.");
-    scanf("%i", &n);   //（这里有警告）
+    scanf("%i", &n);
     _numerator = n;
 }
 
 -(void) inPutDenominator: (int) d
 {
     NSLog(@"input the denominator.");
-    scanf("%i", &d);   //（这里有警告）
+    scanf("%i", &d);   
     _denominator = d;
 }
 
